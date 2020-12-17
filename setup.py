@@ -1,11 +1,9 @@
 from setuptools import setup
 from pygears import __version__
 
-setup(name='freecad.gears',
+setup(name='freecad_gears',
       version=str(__version__),
-      packages=['freecad',
-                'freecad.gears',
-        		'pygears'],
+      packages=['freecad_gears','pygears'],
       maintainer="looooo",
       maintainer_email="sppedflyer@gmail.com",
       url="https://github.com/looooo/FCGear",
